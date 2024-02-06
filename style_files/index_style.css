@@ -1,29 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.section {
+    height: 920px;
+    width: 100%;
+}
 
+.landing-page {
+    background-color: #201a53;
+}
 
+.about-page {
+    background-color: #bb420e;
+}
 
+.product-page {
+    background-color: #fc9d45;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.contact-page {
+    background-color: #fcbd44;
+}
 
 
 
