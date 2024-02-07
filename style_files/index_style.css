@@ -4,24 +4,22 @@ body {
 }
 
 .section {
-    height: 920px;
     width: 100%;
 }
 
-.landing-page {
-    background-color: #201a53;
+.bg-block-1 {
+    background-color: #eff0f3;
+    height: 850px;
 }
 
-.about-page {
-    background-color: #bb420e;
+.bg-block-2 {
+    background-color: #fd7f42;
+    height: 150px;
 }
 
-.product-page {
-    background-color: #fc9d45;
-}
-
-.contact-page {
-    background-color: #fcbd44;
+.bg-block-3 {
+    background-color: #eff0f3;
+    height: 850px;
 }
 
 
@@ -30,17 +28,17 @@ body {
 
 
 
+/* Website Colour Palette:
+Light Blue: #eff0f3
+pastel orange: #fd7f42
+*/
 
-
-
-
-
-
-/* Colour Codes
+/* Logo Colour Palette:
 dark blue: #201a53
 purple: #510877
 dark orange: #bb420e
 orange: #e95e24
 pastel orange: #fd7f42
 light orange: #fc9d45
-yellow: #fcbd44 */
+yellow: #fcbd44
+*/
