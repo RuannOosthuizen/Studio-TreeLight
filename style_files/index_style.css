@@ -3,11 +3,25 @@ body {
     padding: 0;
 }
 
-.video-container {
-    position: fixed;
-    top: 0;
-    left: 0;
+
+/* LANDING PAGE STYLE */
+
+.landing-page {
     width: 100%;
+    height: auto;
+}
+
+#landing-vid-bg {
+    width: 100%;
+}
+
+
+/* INFO HYPER LINKS STYLE */
+
+.info-hyper-links {
+    background-color: #182127;
+    width: 100%;
+    height: 100px;
 }
 
 
