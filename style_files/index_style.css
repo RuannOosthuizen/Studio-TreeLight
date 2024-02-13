@@ -1,21 +1,41 @@
 body {
     margin: 0;
     padding: 0;
-}
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/landing_page_bg.jpg); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Change text color to contrast with your background */
+    font-family: 'Arial', sans-serif;
+  }
 
 
 /* LANDING PAGE STYLE */
 
 .landing-page-container {
-    background-image: url(../assets/landing_page_bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-
-
+    text-align: center;
+  }
+  
+  .company-name {
+    font-size: 10vh;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: "Poltawski Nowy", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 7px;
+  }
+  
+  .tagline {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 
 
