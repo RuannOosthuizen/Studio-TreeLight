@@ -1,16 +1,63 @@
+/* DEFINED CONSTANTS */
+:root {
+    --dark_colour: #192229;
+    --white: #fff;
+    --main_font: "Poltawski Nowy", serif;
+}
+
+
+/* BODY STYLE */
+
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../assets/landing_page_bg.jpg); /* Replace with your image URL */
+    background-image: url(../assets/landing_page_bg.jpg);
     background-size: cover;
     background-position: center;
-    color: #fff; /* Change text color to contrast with your background */
+    color: var(--white);
     font-family: 'Arial', sans-serif;
   }
+
+
+
+/* NAVIGATION BAR STYLE */
+header {
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 10px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-company-name {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff; /* Set your desired text color */
+  }
+  
+  .navbar-company-name img {
+    max-width: 40px; /* Set the max width of your logo image */
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff; /* Set your desired text color */
+    margin-left: 20px; /* Adjust as needed */
+  }
+
 
 
 /* LANDING PAGE STYLE */
@@ -23,7 +70,7 @@ body {
     font-size: 10vh;
     font-weight: 400;
     margin-bottom: 10px;
-    font-family: "Poltawski Nowy", serif;
+    font-family: var(--main_font);
     font-optical-sizing: auto;
     font-style: normal;
     letter-spacing: 7px;
@@ -52,7 +99,7 @@ body {
 
 
 /* Website Colour Palette:
-
+  main dark colour: #192229
 */
 
 /* Logo Colour Palette:
