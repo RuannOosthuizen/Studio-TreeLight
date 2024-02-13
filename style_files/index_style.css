@@ -6,23 +6,22 @@ body {
 
 /* LANDING PAGE STYLE */
 
-.landing-page {
-    width: 100%;
-    height: auto;
+.landing-page-container {
+    background-image: url(../assets/landing_page_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-#landing-vid-bg {
-    width: 100%;
-}
 
 
-/* INFO HYPER LINKS STYLE */
 
-.info-hyper-links {
-    background-color: #182127;
-    width: 100%;
-    height: 100px;
-}
+
+
+
+
+
+
 
 
 
