@@ -112,6 +112,20 @@ body, html {
 
 
 
+/* MEDUA QUERIES FOR SCREEN SIZING */
+@media screen and (max-width: 768px) {
+  .landing-page-header {
+    padding: 0 20xp;
+  }
+
+  .short-bio-container {
+    padding: 0 20px;
+  }
+}
+
+
+
+
 
 
 /* Website Colour Palette:
